@@ -125,9 +125,6 @@ select option[value=""][disabled] {
 	display: none;
 }
 .form-button {
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	background-color: #14b8a6;
 	color: white;
 	padding: 7px 20px;
@@ -139,6 +136,7 @@ select option[value=""][disabled] {
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
 	transition: background-color 0.2s, box-shadow 0.2s;
 	margin-top: 20px;
+	text-decoration: none !important;
 }
 
 /* Apply a hover effect when hovering over the button */
@@ -218,4 +216,8 @@ select option[value=""][disabled] {
 		padding: 10px;
 		padding-bottom: 0;
 	}
+}
+
+.btn{
+	text-decoration: none !important;
 }
